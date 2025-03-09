@@ -8,9 +8,9 @@ from dotenv import load_dotenv
 import google.generativeai as gen_ai
 
 ## Loading the Model
-Diabetese_model = pickle.load(open('D:/ML PROJECTS/Streamlit_app/Final_Combination/Diabetes_model.pkl','rb'))
-Heart_model = pickle.load(open('D:/ML PROJECTS/Streamlit_app/Final_Combination/HeartDisease_model.pkl','rb'))
-Parkinsons_model = pickle.load(open('D:/ML PROJECTS/Streamlit_app/Final_Combination/Parkinsons_model.pkl','rb'))
+Diabetese_model = pickle.load(open('Final_Combination/Diabetes_model.pkl','rb'))
+Heart_model = pickle.load(open('Final_Combination/HeartDisease_model.pkl','rb'))
+Parkinsons_model = pickle.load(open('Final_Combination/Parkinsons_model.pkl','rb'))
 
 ## Side bar Navigator 
  #Streamlit paging krre ha 
