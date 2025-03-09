@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+streamlit
+streamlit-option-menu
+pypickle
+python-dotenv
+google-generativeai
+fastapi
+uvicorn
+pydantic
+json
